@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>YouTube Clone</title>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles/general.css">
+        <link rel="stylesheet" href="styles/header.css">
+        <link rel="stylesheet" href="styles/video.css">
+        <link rel="stylesheet" href="styles/sidebar.css">
+    </head>
+    <body>
+        <div class="header">
+            <div class="left-section">
+                <img class="hamburger-menu" src="icons/hamburger-menu.svg">
+                <p><a href="https://www.youtube.com"><img class="youtube-logo" src="icons/youtube-logo.svg"></a></p>
+            </div>
+            <div class="middle-section">
+                <input class="search-bar" type="text" placeholder="Search">
+                <button class="search-button">
+                    <img class="search-icon" src="icons/search.svg">
+                    <div class="tooltip">Search</div>
+                </button>
+                <button class="voice-search-button">
+                    <img class="voice-search-icon" src="icons/voice-search-icon.svg">
+                    <div class="tooltip">Search with your voice</div>
+                </button>
+            </div>
+            <div class="right-section">
+                <div class="upload-icon-container">
+                    <img class="upload-icon" src="icons/upload.svg">
+                    <div class="tooltip">Create</div>
+                </div>
+
+                <div class="youtube-apps-icon-container">
+                    <img class="youtube-apps-icon" src="icons/youtube-apps.svg">
+                    <div class="tooltip">YouTube Apps</div>
+                </div>
+                
+                <div class="notifications-icon-container">
+                    <img class="notifications-icon" src="icons/notifications.svg">
+                    <div class="notifications-count">3</div>
+                    <div class="tooltip">Notifications</div>
+                </div>
+                <p><a href="https://www.youtube.com"><img class="current-user-picture" src="channel-pictures/my-channel.jpg"></a></p>
+            </div>
+        </div>
+
+        <div class="sidebar">
+            <div class="sidebar-link">
+                <p><a href="https://www.youtube.com"><img src="icons/home.svg"></a></p>                
+                <div>Home</div>
+            </div>
+            <div class="sidebar-link">
+                <p><a href="https://www.youtube.com"><img src="icons/explore.svg"></a></p>                
+                <div>Explore</div>
+            </div>
+            <div class="sidebar-link">
+                <p><a href="https://www.youtube.com/feed/subscriptions"><img src="icons/subscriptions.svg"></a></p>                
+                <div>Subscriptions</div>
+            </div>
+            <div class="sidebar-link">
+                <p><a href="https://www.youtube.com"><img src="icons/originals.svg"></a></p>                
+                <div>Originals</div>
+            </div>
+            <div class="sidebar-link">
+                <p><a href="https://music.youtube.com/"><img src="icons/youtube-music.svg"></a></p>                
+                <div>YouTube Music</div>
+            </div>
+            <div class="sidebar-link">
+                <p><a href="https://www.youtube.com/feed/library"><img src="icons/library.svg"></a></p>                
+                <div>Library</div>
+            </div>
+        </div>
+        
+        <div class="video-grid">
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <p><a href="https://www.youtube.com/watch?v=n2RNcPRtAiY&t=1s"><img class ="thumbnail" src="thumbnails/thumbnail-1.webp"></a></p>
+                    <div class="video-time">14:20</div>
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <p><a href="https://www.youtube.com/@mkbhd"><img class="profile-picture" src="channel-pictures/channel-1.jpeg"></a></p>
+                    </div>
+                    <div class="video-info">
+                        <p class="video-title">Talking Tech and AI with Google CEO Sundar Pichai!</p>
+                        <p class="video-author">Marques Brownlee</p>
+                        <p class="video-stats">4.3M views &#183; 3 years ago</p>
+                    </div> 
+                </div>
+            </div>
+    
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <p><a href="https://www.youtube.com/watch?v=mP0RAo9SKZk&t=2s"><img class ="thumbnail" src="thumbnails/thumbnail-2.webp"></a></p>
+                    <div class="video-time">8:22</div>
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <p><a href="https://www.youtube.com/@markiplier"><img class="profile-picture" src="channel-pictures/channel-2.jpeg"></a></p>                        
+                    </div>
+                    <div class="video-info">
+                        <p class="video-title">Try Not To Laugh Challenge #9</p>
+                        <p class="video-author">Markiplier</p>
+                        <p class="video-stats">19M views &#183; 4 years ago</p>
+                    </div> 
+                </div>
+            </div>
+    
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <p><a href="https://www.youtube.com/watch?v=FgjPQQeTh1w&t=1s"><img class ="thumbnail" src="thumbnails/thumbnail-3.webp"></a></p>
+                    <div class="video-time">9:13</div>
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <p><a href="https://www.youtube.com/@SSSniperWolf"><img class="profile-picture" src="channel-pictures/channel-3.jpeg"></a></p>                        
+                    </div>
+                    <div class="video-info">
+                        <p class="video-title">Crazy Tik Toks Taken Moments Before DISASTER</p>
+                        <p class="video-author">SSSniperWolf</p>
+                        <p class="video-stats">14M views &#183; 4 year ago</p>
+                    </div> 
+                </div>
+            </div>
+    
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <p><a href="https://www.youtube.com/watch?v=094y1Z2wpJg"><img class ="thumbnail" src="thumbnails/thumbnail-4.webp"></a></p>
+                    <div class="video-time">22:09</div>
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <p><a href="https://www.youtube.com/@veritasium"><img class="profile-picture" src="channel-pictures/channel-4.jpeg"></a></p>                        
+                    </div>
+                    <div class="video-info">
+                        <p class="video-title">
+                            The Simplest Math Problem No One Can Solve - Collatz Conjecture</p>
+                        <p class="video-author">Veritasium</p>
+                        <p class="video-stats">42M views &#183; 3 years ago</p>
+                    </div> 
+                </div>
+            </div>
+    
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <p><a href="https://www.youtube.com/watch?v=86CQq3pKSUw&t=1s"><img class ="thumbnail" src="thumbnails/thumbnail-5.webp"></a></p>
+                    <div class="video-time">11:17</div>
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <p><a href="https://www.youtube.com/@CSDojo"><img class="profile-picture" src="channel-pictures/channel-5.jpeg"></a></p>
+                        
+                    </div>
+                    <div class="video-info">
+                        <p class="video-title">Kadane's Algorithm to Maximum Sum Subarray Problem</p>
+                        <p class="video-author">CS Dojo</p>
+                        <p class="video-stats">731K views &#183; 8 years ago</p>
+                    </div> 
+                </div>
+            </div>
+    
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <p><a href="https://www.youtube.com/watch?v=yXWw0_UfSFg&t=1s"><img class ="thumbnail" src="thumbnails/thumbnail-6.webp"></a></p>                    
+                    <div class="video-time">19:59</div>
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <p><a href="https://www.youtube.com/@MrBeast"><img class="profile-picture" src="channel-pictures/channel-6.jpeg"></a></p>                        
+                    </div>
+                    <div class="video-info">
+                        <p class="video-title">Anything You Can Fit In The Circle I’ll Pay For</p>
+                        <p class="video-author">MrBeast</p>
+                        <p class="video-stats">305M views &#183; 4 year ago</p>
+                    </div> 
+                </div>
+            </div>
+
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <p><a href="https://www.youtube.com/watch?v=dAEvx2GNZ9Q&t=15s"><img class ="thumbnail" src="thumbnails/thumbnail-7.avif"></a></p>                    
+                    <div class="video-time">19:38</div>
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <p><a href="https://www.youtube.com/@FasBeam"><img class="profile-picture" src="channel-pictures/channel-7.jpg"></a></p>                        
+                    </div>
+                    <div class="video-info">
+                        <p class="video-title">BMW S 1000 RR - This Rs. 31 Lakh Motorcycle Is Bonkers</p>
+                        <p class="video-author">Faisal Khan</p>
+                        <p class="video-stats">273K views &#183; 4 months ago</p>
+                    </div> 
+                </div>
+            </div>
+
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <p><a href="https://www.youtube.com/watch?v=UfwCCG9e4Z8"><img class ="thumbnail" src="thumbnails/thumbnail-8.avif"></a></p>                    
+                    <div class="video-time">9:21</div>
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <p><a href="https://www.youtube.com/@ninjah2japan"><img class="profile-picture" src="channel-pictures/channel-8.jpg"></a></p>                        
+                    </div>
+                    <div class="video-info">
+                        <p class="video-title">Tokyo Night Ride by Ninja H2 Episode 64/東京/Japan/Kawasaki Ninja H2【4K】</p>
+                        <p class="video-author">The Ninja H2 Japan MASAKI</p>
+                        <p class="video-stats">1.7M views &#183; 6 months ago</p>
+                    </div> 
+                </div>
+            </div>
+
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <p><a href="https://www.youtube.com/watch?v=c5LeLdbK_-A&t=1s"><img class ="thumbnail" src="thumbnails/thumbnail-9.avif"></a></p>                    
+                    <div class="video-time">8:11</div>
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <p><a href="https://www.youtube.com/@Souldrives"><img class="profile-picture" src="channel-pictures/channel-9.jpg"></a></p>                        
+                    </div>
+                    <div class="video-info">
+                        <p class="video-title">Porsche 992 GT3 Black Forest Drive | RAW Sound</p>
+                        <p class="video-author">SoulDrives</p>
+                        <p class="video-stats">2.2M views &#183; 3 months ago</p>
+                    </div> 
+                </div>
+            </div>
+
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <p><a href="https://www.youtube.com/watch?v=fVufY4SCoOk"><img class ="thumbnail" src="thumbnails/thumbnail-10.avif"></a></p>
+                    <div class="video-time">16:35</div>
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <p><a href="https://www.youtube.com/@LaLiga"><img class="profile-picture" src="channel-pictures/channel-10.jpg"></a></p>                        
+                    </div>
+                    <div class="video-info">
+                        <p class="video-title">Real Madrid vs FC Barcelona (2-3) | 2016/17 Season - Extended Highlights</p>
+                        <p class="video-author">LALIGA</p>
+                        <p class="video-stats">3.8M views &#183; 3 months ago</p>
+                    </div> 
+                </div>
+            </div>
+
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <p><a href="https://www.youtube.com/watch?v=QdBZY2fkU-0"><img class ="thumbnail" src="thumbnails/thumbnail-11.avif"></a></p>
+                    <div class="video-time">1:31</div>
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <p><a href="https://www.youtube.com/@RockstarGames"><img class="profile-picture" src="channel-pictures/channel-11.jpg"></a></p>                    
+                    </div>
+                    <div class="video-info">
+                        <p class="video-title">Grand Theft Auto VI Trailer 1</p>
+                        <p class="video-author">Rockstar Games</p>
+                        <p class="video-stats">236M views &#183; 1 year ago</p>
+                    </div> 
+                </div>
+            </div>
+
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <p><a href="https://www.youtube.com/watch?v=Z_LmiQlT9oE"><img class ="thumbnail" src="thumbnails/thumbnail-12.avif"></a></p>                    
+                    <div class="video-time">4:13</div>
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <p><a href="https://www.youtube.com/@Formula1"><img class="profile-picture" src="channel-pictures/channel-12.jpg"></a></p>                        
+                    </div>
+                    <div class="video-info">
+                        <p class="video-title">Lewis Hamilton Overtakes EVERYONE! | 2021 Sao Paulo Grand Prix</p>
+                        <p class="video-author">Formula 1</p>
+                        <p class="video-stats">4M views &#183; 3 years ago</p>
+                    </div> 
+                </div>
+            </div>
+
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <p><a href="https://www.youtube.com/watch?v=R9nrhulUFhk&t=2s"><img class ="thumbnail" src="thumbnails/thumbnail-13.avif"></a></p>
+                    <div class="video-time">17:43</div>
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <p><a href="https://www.youtube.com/@ExpressDrives"><img class="profile-picture" src="channel-pictures/channel-13.jpg"></a></p>                        
+                    </div>
+                    <div class="video-info">
+                        <p class="video-title">Mercedes Benz GLC Review: Sure Shot Blockbuster Returns | Mercedes GLC 2023 |</p>
+                        <p class="video-author">Express Drives</p>
+                        <p class="video-stats">6.8K views &#183; 1 year ago</p>
+                    </div> 
+                </div>
+            </div>
+
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <p><a href="https://www.youtube.com/watch?v=qaeHKoq_CLM"><img class ="thumbnail" src="thumbnails/thumbnail-14.avif"></a></p>                    
+                    <div class="video-time">14:20</div>
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <p><a href="https://www.youtube.com/@marvel"><img class="profile-picture" src="channel-pictures/channel-14.jpg"></a></p>                        
+                    </div>
+                    <div class="video-info">
+                        <p class="video-title">Tony Stark's Best Iron Man Suit Ups | MCU Compilation (4K)</p>
+                        <p class="video-author">Marvel Entertainment</p>
+                        <p class="video-stats">3.4M views &#183; 1 month ago</p>
+                    </div> 
+                </div>
+            </div>
+
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <p><a href="https://www.youtube.com/watch?v=WGwjBfi7b0I&t=1s"><img class ="thumbnail" src="thumbnails/thumbnail-15.avif"></a></p>                    
+                    <div class="video-time">32:14</div>
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <p><a href="https://www.youtube.com/@Sidemen"><img class="profile-picture" src="channel-pictures/channel-15.jpg"></a></p>                        
+                    </div>
+                    <div class="video-info">
+                        <p class="video-title">SIDEMEN SILENT LIBRARY 2</p>
+                        <p class="video-author">Sidemen</p>
+                        <p class="video-stats">17M views &#183; 2 years ago</p>
+                    </div> 
+                </div>
+            </div>
+
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <p><a href="https://www.youtube.com/watch?v=B-gHb2gPGIs&t=5s"><img class ="thumbnail" src="thumbnails/thumbnail-16.avif"></a></p>                    
+                    <div class="video-time">39:36</div>
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <p><a href="https://www.youtube.com/@Sidemen"><img class="profile-picture" src="channel-pictures/channel-15.jpg"></a></p>                        
+                    </div>
+                    <div class="video-info">
+                        <p class="video-title">SIDEMEN TINDER IN REAL LIFE 4 (USA YOUTUBE EDITION)</p>
+                        <p class="video-author">Sidemen</p>
+                        <p class="video-stats">60M views &#183; 2 years ago</p>
+                    </div> 
+                </div>
+            </div>  
+        </div>
+
+        
+
+
+    </body>
+</html>
